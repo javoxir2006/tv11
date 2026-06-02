@@ -73,6 +73,9 @@ dependencies {
     // OkHttp (better network performance than default)
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
+    // Leanback — required for Theme.Leanback in styles.xml
+    implementation("androidx.leanback:leanback:1.0.0")
+
     // Coil for logo images
     implementation("io.coil-kt:coil-compose:2.7.0")
 }
